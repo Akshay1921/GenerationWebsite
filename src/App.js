@@ -7,7 +7,7 @@ import Big from 'big.js';
 import logo from './Rocket_Boys_251.png';
 
 import getConfig from './config';
-const { networkId } = getConfig(process.env.NODE_ENV || 'production');
+const { networkId } = getConfig(process.env.NODE_ENV || 'mainnet');
 
 const BOATLOAD_OF_GAS = Big(3).times(10 ** 13).toFixed();
 const MINT_FEE = '12';
