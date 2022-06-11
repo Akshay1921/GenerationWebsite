@@ -10,7 +10,7 @@ import getConfig from './config';
 const { networkId } = getConfig(process.env.NODE_ENV || 'mainnet');
 
 const BOATLOAD_OF_GAS = Big(3).times(10 ** 13).toFixed();
-const MINT_FEE = '12';
+const MINT_FEE = '0.1';
 
 export default function App() {
   // use React Hooks to store greeting in component state
