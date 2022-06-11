@@ -1,4 +1,4 @@
-const CONTRACT_NAME = "nearverselabs.near";
+const CONTRACT_NAME = "nearversetest.near";
 
 function getConfig(env) {
   switch (env) {
